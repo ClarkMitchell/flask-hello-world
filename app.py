@@ -3,15 +3,12 @@
 from flask import Flask
 
 app = Flask(__name__)
+app.config["DEBUG"] = True
 
 @app.route("/")
 @app.route("/hello")
 def hello_world():
-    return "Hello World!"
-
-@app.route("/phil")
-def phil():
-    return "Hello Phil"
+    return "Hello World???!"
 
 @app.route("/search/<search_query>")
 def search(search_query):
@@ -35,6 +32,13 @@ def float_type(value):
 def path_value(value):
     print value
     return "hello " + value
+
+@app.route("/name/<name>")
+def index(name):
+    if name.lower() == "clark":
+        return "Hello, {}".format(name), 200
+    else:
+        return "Not Found", 404
 
 if __name__ == "__main__":
     app.run()

@@ -1,4 +1,4 @@
-#!/Users/trinity/Documents/realpython/flask-hello-world/env/bin/python2.7
+#!/home/trinity/realpython/flask-hello-world/env/bin/python
 
 # -*- coding: utf-8 -*-
 import re

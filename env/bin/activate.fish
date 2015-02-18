@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/trinity/Documents/realpython/flask-hello-world/env"
+set -gx VIRTUAL_ENV "/home/trinity/realpython/flask-hello-world/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
