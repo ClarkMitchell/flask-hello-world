@@ -1,0 +1,6 @@
+*.pyc
+*~
+*.lock
+*.DS_Stire
+*.swp
+*.out
