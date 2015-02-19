@@ -1,6 +1,6 @@
 *.pyc
 *~
 *.lock
-*.DS_Stire
+*.DS_Store
 *.swp
 *.out
